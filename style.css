@@ -3,6 +3,7 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: lightgray;
+    
 }
 
 html{
@@ -115,7 +116,7 @@ header ul a:hover{
 
 .blackhole-box{
     position:absolute;
-    top: 0 px;;
+    top: 0 ;;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -653,8 +654,11 @@ header ul a:hover{
 
 .contact-section h1{
     position: absolute;
-    top: 10%;
-    left: 40%;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    white-space: nowrap;
 }
 
 /* Social links */
@@ -934,386 +938,6 @@ header ul a:hover{
         height: auto;
     }
 }
-@media screen and (max-width: 480px) {
-.hero{
-
-flex-direction:column;
-}
-
-.hero-info{
-
-width:90%;
-
-}
-
-.skills-video-box{
-
-width:100%;
-
-display:flex;
-
-justify-content:center;
-
-}
-
-.skills-video{
-
-width:80%;
-
-height:auto;
-
-} 
- .blackhole-box {
-        overflow: hidden;
-    }
-
-    .blackhole-box video {
-        width: 140%;
-        margin-top: -24%;
-
-    }
-
-    .left {
-        scale: 0.9;
-        margin-left: -30px;
-    }
-
-    .left h2 {
-        font-size: 20px;
-    }
-
-    .hero {
-        scale: 0.9;
-    }
-
-    .hero-info{
-        bottom: 15%;
-    }
-
-    .hero-info h1{
-        font-size: 35px;
-    }
-
-    .section-title {
-        font-size: 25px;
-    }
- 
-    .info-cards{
-        display: flex;
-        flex-direction: column;
-    }
-
-     .info-cards .card{
-    grid-column:auto !important;
-    grid-row:auto !important;
-    width: 100%;
-}
-    .card {
-   min-height: auto
-    }
-
-    .card h1{
-    position:static;
-    margin-top:15px;
-    font-size: 20px;
-    }
-    .card p{
-    position:static;
-}
-
-    .project-card {
-        height: 50%;
-    }
-
-    .project-info p{
-        margin-bottom: 15px;
-    }
-
-    .project-info{
-        margin-left: -80px;
-    }
-
-    .skills-box{
-        height: 120vh;
-        margin-right: 30px;
-    }
-
-    .slider{
-        bottom: 0%;
-    }
-
-    .contact-section{
-        scale: 0.9;
-        height: 120vh;
-    }
-
-    .contact-section .section-title {
-        top: -30px;
-        left: 25%;
-    }
-
-    .footer{
-        position: relative;
-
-        width: 100%;
-        min-height: 120px;
-
-        box-sizing: border-box;
-        padding: 20px 25px;
-
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-
-        gap: 20px;
-
-        background-color: rgba(255, 255, 255, 0.121);
-    }
-
-    .footer h1{
-        max-width: none;
-        margin: 0;
-
-        font-size: 16px;
-        line-height: 1.5;
-    }
-
-    .footer .box-icons{
-        display: flex;
-        align-items: center;
-        gap: 12px;
-
-        flex-shrink: 0;
-    }
-
-    .footer .box-icons a{
-        width: 32px;
-        height: 32px;
-        font-size: 18px;
-    }
-
-    /* HERO */
-    .hero{
-        position: relative;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        width: 100%;
-        min-height: 85vh;
-
-        scale: 1;
-        padding-top: 100px;
-    }
-
-    .hero-info{
-        position: relative;
-        left: auto;
-        bottom: auto;
-
-        width: 90%;
-        max-width: 500px;
-    }
-
-    .skills-video-box{
-        display: none;
-    }
-
-
-    /* ARROW */
-    .scroll-down{
-        position: absolute;
-        left: 50%;
-        bottom: 20px;
-
-        transform: translateX(-50%);
-
-        margin: 0;
-    }
-
-    /* INFO CARDS */
-    .info-section{
-        width: 100%;
-        align-items: center;
-        margin-top: 0;
-    }
-
-    .info-cards{
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .info-cards .card{
-        width: 100%;
-        box-sizing: border-box;
-
-        grid-column: auto !important;
-        grid-row: auto !important;
-
-        margin: 0;
-    }
-
-
-    /* PROJECTS */
-    .my-project{
-        width: 90%;
-        height: auto;
-
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 100px;
-        margin-top: 30px;
-        transform: none;
-    }
-
-    .project-card{
-        width: 100%;
-
-        flex-direction: column;
-        align-items: center;
-
-        gap: 30px;
-        margin-left: 0;
-    }
-
-    .project-vidbox{
-        width: 100%;
-        min-width: 0;
-    }
-
-    .project-vidbox video{
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .project-info{
-        width: 100%;
-        margin-left: 0;
-        padding-left: 0;
-        overflow: visible;
-    }
-
-    .project-info h1{
-        font-size: 24px;
-        max-width: 100%;
-        text-wrap: wrap;
-    }
-
-    .project-info p{
-        font-size: 15px;
-        line-height: 1.6;
-        max-width: 100%;
-        min-width: 0;
-        text-wrap: wrap;
-    }
-    .hero-info{
-        padding-top: 20px;
-    }
-
-    .hero-info .hero-info-title{
-        margin-top: 10px;
-    }
-.skills-box{
-        margin-top: 0;
-        padding-top: 0;
-        margin-bottom: 0;
-        padding-bottom: 0;
-    
-    }
-
-    .skills-section {
-        width: 100%;
-        padding: 0 20px;
-        box-sizing: border-box;
-    }
-
-    .skills-box {
-        width: 100%;
-        height: auto;
-        min-height: auto;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        margin: 0;
-        padding: 0;
-
-        opacity: 0.7;
-    }
-
-    .skills-image {
-        width: 100%;
-        max-width: 400px;
-        height: auto;
-        margin-bottom: 30px;
-    }
-
-    .Designer,
-    .coder {
-        position: static;
-
-        width: 100%;
-        max-width: 100%;
-
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-
-        margin: 0 0 40px 0;
-    }
-
-    .Designer h1,
-    .coder h1 {
-        font-size: 32px;
-        margin: 0 0 15px 0;
-    }
-
-    .Designer p,
-    .coder p {
-        font-size: 15px;
-        line-height: 1.7;
-        margin: 0;
-    }
-
-    .coder-text {
-        font-size: 32px;
-    }
-    .slider {
-        position: relative;
-        width: 100%;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-}
-/* ================================
-   FINAL RESPONSIVE FIXES
-   ================================ */
-
-/* ===== LAPTOP & LARGE SCREENS ===== */
-@media screen and (min-width: 769px) {
-
-    .hero {
-        min-height: 100vh;
-        position: relative;
-    }
-
-    .scroll-down {
-        position: absolute;
-        left: 50%;
-        top: 82%;
-    
-        transform: translateX(-50%);
-    }
-}
-
 
 
 /* ===========================
@@ -1409,8 +1033,6 @@ height:auto;
 
         min-height: auto;
 
-        padding: 100px 5% 90px;
-
         gap: 30px;
     }
 
@@ -1448,8 +1070,6 @@ height:auto;
         line-height: 1.7;
     }
 
-
-   
 
     /* INFO */
 
@@ -1622,11 +1242,396 @@ height:auto;
     .scroll-down {
         position: absolute;
         left: 50%;
-        top: 82%;
+        top: 80%;
         transform: translateX(-50%);
     }
 
 }
+
+@media screen and (max-width: 480px) {
+.hero{
+
+flex-direction:column;
+}
+
+.hero-info{
+
+width:100%;
+
+}
+
+.skills-video-box{
+
+width:100%;
+
+display:flex;
+
+justify-content:center;
+
+}
+
+.skills-video{
+
+width:80%;
+
+height:auto;
+
+} 
+ .blackhole-box {
+        overflow: hidden;
+      
+      
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       z-index: -1;
+       mix-blend-mode: lighten;
+
+  }
+  
+    .blackhole-box video {
+        width: 140%;
+        margin-top: -23.5%;
+
+    }
+
+    .left {
+        scale: 1;
+        margin-left: 0;
+    }
+
+    .left h2 {
+        font-size: 20px;
+    }
+
+    .hero {
+        scale: 1;
+    }
+
+    .hero-info{
+        bottom: 15%;
+    }
+
+    .hero-info h1{
+        font-size: 35px;
+    }
+
+    .section-title {
+        font-size: 25px;
+    }
+ 
+    .info-cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+     .info-cards .card{
+    grid-column:auto !important;
+    grid-row:auto !important;
+    width: 100%;
+}
+    .card {
+   min-height: auto
+    }
+
+    .card h1{
+    position:static;
+    margin-top:15px;
+    font-size: 20px;
+    }
+    .card p{
+    position:static;
+}
+
+    .project-card {
+        height: 50%;
+    }
+
+    .project-info p{
+        margin-bottom: 15px;
+    }
+
+    .slider{
+        bottom: 0%;
+    }
+
+    .contact-section{
+        scale: 0.9;
+        height: 120vh;
+    }
+
+    .contact-section .section-title {
+        top: -30px;
+        left: 25%;
+    }
+
+    .footer{
+        position: relative;
+
+        width: 100%;
+        min-height: 120px;
+
+        box-sizing: border-box;
+        padding: 20px 25px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        gap: 20px;
+
+        background-color: rgba(255, 255, 255, 0.121);
+    }
+
+    .footer h1{
+        max-width: none;
+        margin: 0;
+
+        font-size: 10px;
+        line-height: 1.5;
+    }
+
+    .footer .box-icons{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        flex-shrink: 0;
+    }
+
+    .footer .box-icons a{
+        width: 100%;
+        height: 32px;
+        font-size: 15px;
+    }
+
+    /* HERO */
+    .hero{
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+        min-height: 85vh;
+
+        scale: 1;
+        padding-top: 100px;
+    }
+
+    .hero-info{
+        position: relative;
+        left: auto;
+        bottom: auto;
+
+        width: 90%;
+        max-width: 500px;
+    }
+
+    .skills-video-box{
+        display: none;
+    }
+
+
+    /* ARROW */
+    .scroll-down{
+        position: absolute;
+        left: 50%;
+        bottom: 20px;
+
+        transform: translateX(-50%);
+
+        margin: 0;
+    }
+
+    /* INFO CARDS */
+    .info-section{
+        width: 100%;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .info-cards{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .info-cards .card{
+        width: 100%;
+        box-sizing: border-box;
+
+        grid-column: auto !important;
+        grid-row: auto !important;
+
+        margin: 0;
+    }
+
+
+    /* PROJECTS */
+    .my-project{
+        width: 90%;
+        height: auto;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+        margin-top: 30px;
+        transform: none;
+    }
+
+    .project-card{
+        width: 100%;
+
+        flex-direction: column;
+        align-items: center;
+
+        gap: 30px;
+        margin-left: 0;
+    }
+
+    .project-vidbox{
+        width: 100%;
+        min-width: 0;
+    }
+
+    .project-vidbox video{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .project-info{
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        overflow: visible;
+    }
+
+    .project-info h1{
+        font-size: 24px;
+        max-width: 100%;
+        text-wrap: wrap;
+    }
+
+    .project-info p{
+        font-size: 15px;
+        line-height: 1.6;
+        max-width: 100%;
+        min-width: 0;
+        text-wrap: wrap;
+    }
+    .hero-info{
+        padding-top: 20px;
+    }
+
+    .hero-info .hero-info-title{
+        margin-top: 10px;
+    }
+    .skills-box{
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    
+    }
+
+    .skills-section {
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .skills-box {
+        width: 100%;
+        height: auto;
+        min-height: auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin: 0;
+        padding: 0;
+
+        opacity: 0.7;
+    }
+
+    .skills-image {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .Designer,
+    .coder {
+        position: static;
+
+        width: 100%;
+        max-width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        margin: 0 0 40px 0;
+    }
+
+    .Designer h1,
+    .coder h1 {
+        font-size: 32px;
+        margin: 0 0 15px 0;
+    }
+
+    .Designer p,
+    .coder p {
+        font-size: 15px;
+        line-height: 1.7;
+        margin: 0;
+    }
+
+    .coder-text {
+        font-size: 32px;
+    }
+    .slider {
+    position: relative;
+    left: 0;
+    right: auto;
+    transform: none;
+    margin-left: 0;
+    margin-right: 0;
+
+    width: 100%;
+    max-width: 100%;
+}
+}
+/* ================================
+   FINAL RESPONSIVE FIXES
+   ================================ */
+
+/* ===== LAPTOP & LARGE SCREENS ===== */
+@media screen and (min-width: 769px) {
+
+    .hero {
+        min-height: 100vh;
+        position: relative;
+    }
+
+    .scroll-down {
+        position: absolute;
+        left: 50%;
+        top: 82%;
+    
+        transform: translateX(-50%);
+    }
+}
+
 
 /* ===== TABLET + SMALL SCREENS ===== */
 @media screen and (max-width: 768px) {
